@@ -1,0 +1,49 @@
+{# encoding:utf-8 #}
+{% extends 'base.html' %}
+{% block title %}Contactanos{% endblock %}
+
+{% block cuerpomenu %}
+    <div id="tab4">
+        <h3 id="formcontac" >ENVIANOS TU CONSULTA</h3>
+
+        <form action="" method="post">{% csrf_token %}
+            {{ formulario.as_p }}
+            <input  class=" textoinput buttons" name="submit" type="submit"  value="Enviar" />
+        </form>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('input').addClass('textoinput letrafor');
+                $('textarea').addClass('textoinput letrafor');
+                $('#id_nombre').attr('placeholder', 'Ingrese su Nombre');
+                $('#id_email').attr('placeholder', 'ejemplo@ejemplo.com');
+                $('#id_descripcion').attr('placeholder', 'Mensaje');
+                $('#id_descripcion').attr('cols', '40');
+                $('#id_descripcion').attr('rows', '10');
+            });
+        </script>
+    </div>
+{% endblock %}
+
+
+<form id="contactForm" action="#" method="post">
+    <fieldset>
+        <div>
+            <input name="name" id="name" type="text" class="form-poshytip" title="Whats your name?" value="Name" onfocus="defaultInput(this,'Name')" onblur="clearInput(this,'Name')">
+        </div>
+        <div>
+            <input name="email" id="email" type="text" class="form-poshytip" title="Enter a valid email address" value="Email" onfocus="defaultInput(this,'Email')" onblur="clearInput(this,'Email')">
+        </div>
+        <div>
+            <textarea name="comments" id="comments" rows="5" cols="20" class="form-poshytip" title="How can i help you?" onfocus="defaultInput(this,'How can i help you?')" onblur="clearInput(this,'How can i help you?')">How can i help you?</textarea>
+        </div>
+
+        <!-- send mail configuration -->
+        <input type="hidden" value="luis@luiszuno.com" name="to" id="to">
+        <input type="hidden" value="youremail@luiszuno.com" name="from" id="from">
+        <input type="hidden" value="From contact form" name="subject" id="subject">
+        <input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl">
+        <!-- ENDS send mail configuration -->
+
+        <p><input type="button" value="Send" name="submit" id="submit"></p>
+    </fieldset>
+</form>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang ="es">
+	<head>
+		<title>
+            SIE |
+            {% block title %}
+            {% endblock %}
+        </title>
+
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/style.css"/>
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/menu.css"/>
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/logousuario.css"/>
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/ventanamodal.css"/>
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/logousuario.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="{{ STATIC_URL }}js/modernizr.custom.03036.js"></script>
+		<script src="{{ STATIC_URL }}js/jquery.min.js"></script>
+		<script src="{{ STATIC_URL }}js/jquery-1.9.1.min.js"></script>
+		<script>
+		$(document).ready(function() {
+				var menuflotante 		= $('#menuflotante');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+
+				$(menuflotante).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+	    	});
+	    </script>
+   	</head>
+	<body>
+	    <section id="contecuerpo">
+			<header>
+				<div class="cabecraconteuno" id="contelogo">
+				</div>
+				<div id="mensaje">
+						<img class="imagenes" id="imagen1">
+						<img class="imagenes" id="imagen2">
+						<img class="imagenes" id="imagen3">
+				</div>
+			</header>
+			<nav class="menu">
+				<ul class="menu">
+					<li><a href="/">Inicio</a></li>
+					<li><a href="/nosotros">Nosotros</a></li>
+					<li><a href="/servicios">Servicios</a></li>
+					<li><a href="/cursos">Temas y Cursos</a></li>
+					<li><a href="/contactos">Contactos</a></li>
+				</ul>
+				<a href="#" id="menuflotante">Menu</a>
+			</nav>
+
+            <section id="cuerpomenu">
+                {% block cuerpomenu %}
+                    <div id="tab0">
+                            <!--h5 class="bienvenida venida">BIENVENIDOS A:</h5>
+                            <h5 class="bienvenida sie">SIE</h5>
+                            <h5 class="bienvenida srl">s.r.l.</h5>
+                            <h5 class="bienvenida trabajamos">TRABAJAMOS POR UN MEJOR FUTURO TECNOLÓGICO</h5-->
+                            <img id="imageninicio"></img>
+                    </div>
+                {% endblock %}
+            </section>
+			<section id="confian">
+			    <h2 id="ellos">Ellos sí confián en nosotros </h2>
+            </section>
+            <section id="secciones">
+                <? foreach($filas as $fila):?>
+                    <article class="columnas">
+                        <h2 class="nomempresa">nombre</h2>
+                        <p><img id="empresa1" src="{{ STATIC_URL }}images/img_empresas/"> </p>
+                    </article>
+                <?endforeach?>
+            </section>
+			<footer id="pie">
+				<p id="pieletra">Copyright (c) 2013 <a  title="DESARROLLADORES" href="#example" class="openModal">sie</a></p>
+			</footer>
+            <!--todo referente a la ventana modal-->
+            <aside id="example" class="modal">
+                <div>
+                    <h2 class="letrasmodal">SIE S.R.L.</h2>
+
+                        <section id="flotante">
+                            <!--div id="contefotos" class="general proyectos"></div-->
+                            <li class="letrasubmodal"><a href="http://www.facebook.com/roger.mendez.r?fref=ts">DIRECTOR GENERAL  </a></li>
+                            <li class="letrasubmodal"><a href="http://www.facebook.com/rafarolan?fref=ts">DIRECTOR DE PROYECTOS  </a></li>
+                            <li class="letrasubmodal"><a href="http://www.facebook.com/ron.hernandez.3998?fref=ts">DIRECTOR DE RR. HH.  </a></li>
+                            <li class="letrasubmodal"><a href="http://www.facebook.com/kyoir?fref=ts">DIRECTOR DE INVESTICACION</a></li>
+                            <li class="letrasubmodal"><a href="http://www.facebook.com/alvarodiego.dazaalcaraz">DIRECTOR DE FINANZAS </a></li>
+                        </section>
+
+                    <a href="#close" title="CERRAR">Cerrar</a>
+                </div>
+            </aside>
+	</section>
+  </body>
+</html>

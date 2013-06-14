@@ -1,0 +1,265 @@
+#cuerposocio{
+	overflow:scroll;
+	margin:0 auto;
+  height:auto;
+	width:98%;
+	background:#535353;
+}
+.errors{
+  width: 300px;
+  height: 50px;
+  color:black;
+  float:right;
+  position:absolute;
+  font-size:15px;
+  font-weight: bolder;
+  text-shadow:1px 1px 2px red;
+  padding: 2px;
+  text-align: center;
+  margin:0 auto;
+  margin-left: 700px;
+}
+.errorlist{
+    width: 300px;
+  height: 50px;
+  color:black;
+  float:right;
+  position:absolute;
+  font-size:15px;
+  font-weight: bolder;
+  text-shadow:1px 1px 2px red;
+  padding: 2px;
+  text-align: center;
+  margin:0 auto;
+  margin-left: 700px;
+}
+.errores{
+  background:rgba(100,100,100,0.5);
+  width: 300px;
+  height: 40px;
+  color:black;
+  position:absolute;
+  font-size:17px;
+  font-weight: bolder;
+  text-shadow:1px 1px 2px red;
+  padding: 2px;
+  text-align: center;
+  margin:0 auto;
+  margin-left:28%; 
+  margin-top: -12px;
+
+}
+.errors:active{
+	display:block;
+}
+*{
+  padding:0;
+}
+
+body{
+  
+  background:white;
+ 
+  /*background:white;*/
+}
+#contecuerpo{
+  margin:0px auto;
+  max-width:1024px;
+  /*box-shadow: 0 0 2000px black inset,0 0 8px white;
+  background:white;*/
+  border-left: 50px solid rgba(11,40,61,0.9);
+  border-right: 50px solid rgba(16,86,129,0.9);
+
+}
+#imageninicio{
+  background: url(../images/inicio1.png);
+  background-size: 100% 100%;
+  width: 450px;
+  height: 400px;
+  margin-top: 10px;
+  margin-right:-60px;
+
+}
+img{
+  max-width:96%;
+  width:auto;
+  margin:0px auto;
+  display:block;
+}
+h2{
+  width:450px; 
+}
+h4{
+  height:2px;
+  margin-top:0px;
+  padding-top:-8px;
+}
+/*PIE DE PAGINA */
+#pie{
+  background: url(../images/bg5.png);
+  background-size:100% 150% ;
+  background-position:-800px 0px; 
+  background-color: rgba(0,0,0,1);
+  box-shadow: 0 100px 230px rgba(255, 255,255,1),0 180px 290px rgba(255, 255,255,1), 0 0 5px white;
+  color:white;
+	font-family: "trebuchet ms",sans-serif;
+	font-size:1.1em;
+  font-weight:bolder; 
+	height:80px;
+  margin: 0.3em auto;
+  text-align: center;
+	margin-top:10px;
+  padding-top:10px;
+	border-radius:10px 10px 0 0 ;
+  width:99.8%;
+  overflow: hidden;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border-bottom: 2px solid #A81900;
+}
+#pie > #pieletra{
+  padding:0px;
+  width: 70%;
+  margin:0 auto;
+}
+
+
+
+#confian{
+  background: url(../images/bg5.png);
+  background-size: 200% 180% ;
+  background-position:-800px -45px; 
+  background-color: rgba(0,0,0,1);
+
+  border-bottom:2px solid black;
+  border-radius:0 0 10px 10px;
+  border-top: 2px solid #A81900;
+  color:white;
+  font-family: "trebuchet ms",sans-serif;
+  font-size:100%;
+  height:3.8em;
+  text-align:center;
+  margin:0.3em auto;
+  width:100%;
+  margin-top: 10px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-shadow: 0 0 230px rgba(255, 255,255,1),0 0 290px rgba(255, 255,255,1);
+}
+#ellos{
+ 
+  height:50px;
+  margin-top:0px;
+  padding-top:10px;
+  width:100%;
+}
+#secciones{
+  background:#12A89D;
+  border: 15px solid rgba(0,0,0,0.6);
+  margin:10px auto;
+  overflow:hidden;
+  padding:10px 0;
+  text-align:center;
+  width:96%;
+  background: url(../images/bg5.png);
+  background-size: 100% 100% ;
+  background-position:0px 0px; 
+  background-color: rgba(0,0,0,1);
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border-radius: 10px;
+  box-shadow:0 0 10px rgba(255, 255,255,1);
+}
+#secciones article{
+  display: inline-block;
+  vertical-align: top;
+  /*float:center;*/
+  margin:5px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding: 2px;
+}
+
+.columnas{
+  background-color:rgba(40,138,204,0.05);
+  border-radius: 10px 10px 10px 10px ;
+  height:10em;
+  color:white;
+  width:140px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  transition:all 500ms ease;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  -moz-transition:all 500ms ease;
+  -ms-transition:all 500ms ease;
+}
+#empresa1{
+  display: block;
+  vertical-align: middle;
+  background-size:20%;
+  background-position:top;
+  height:70px;
+  width:52%;
+  padding: 0%;
+  transition:all 500ms ease;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  -moz-transition:all 500ms ease;
+  -ms-transition:all 500ms ease;
+}
+ #empresa1:hover{
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  height:100px;
+  width:80%;
+  box-shadow:0 0 3px white,0 0 5px #1094E2,0 0 20px white;
+}
+.nomempresa{
+  margin:0 auto;
+  margin-top: -4px;
+  padding:7px 0 7px  0;
+  width: 90%;
+  font-size: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  box-shadow: 0 0 9px LightSkyBlue inset;
+  /*esto es otro cambio ojoojojojo*/
+  text-shadow:1px 1px 2px blue;
+  overflow: hidden;
+  /*Hola COmo Estas*/
+}
+/*.cuerpo{
+    border-radius:6px;
+    margin-top:10px;
+    margin-bottom:20px;
+    height: 440px;
+    width: 100%;
+    background: red;
+    position:absolute;
+    /*ketal asi no mas es */
+}
+/*contenedor articulos e imagenes de empresas*/
+
+#salir{
+  margin-left: 120px;
+  margin-top: 0px;
+  /*hola a todos una prueba mas */
+}
+#cambiarcontrasenha{
+ margin-left: 10px;
+  margin-top: 50px;
+  color: white; 
+}
