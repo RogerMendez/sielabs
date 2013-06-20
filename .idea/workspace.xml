@@ -39,7 +39,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sielabs/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="214" selection-end="214" vertical-scroll-proportion="0.27321428">
+            <state line="111" column="50" selection-start="4172" selection-end="4172" vertical-scroll-proportion="0.03046595">
               <folding />
             </state>
           </provider>
@@ -67,9 +67,7 @@
         <entry file="file://$PROJECT_DIR$/consultas/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#16#74#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,55 +148,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sielabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consultas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,10 +279,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -339,6 +290,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -421,48 +373,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="69" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consultas/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/servicios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="263" selection-end="263" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
+        <state line="9" column="30" selection-start="263" selection-end="263" vertical-scroll-proportion="-5.8846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/nosotros.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="11" selection-start="0" selection-end="1411" vertical-scroll-proportion="0.7831094">
-          <folding />
-        </state>
+        <state line="24" column="11" selection-start="0" selection-end="1411" vertical-scroll-proportion="0.7831094" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consultas/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="5" column="15" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/temascursos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="0" selection-end="255" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
+        <state line="7" column="8" selection-start="0" selection-end="255" vertical-scroll-proportion="-4.576923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/urls.py">
@@ -474,30 +412,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="1" selection-start="5360" selection-end="5360" vertical-scroll-proportion="4.885714">
-          <folding />
-        </state>
+        <state line="264" column="1" selection-start="5360" selection-end="5360" vertical-scroll-proportion="4.885714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/static/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="16" selection-start="2129" selection-end="2129" vertical-scroll-proportion="3.0767825">
-          <folding />
-        </state>
+        <state line="99" column="16" selection-start="2129" selection-end="2129" vertical-scroll-proportion="3.0767825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="43" selection-start="1901" selection-end="1901" vertical-scroll-proportion="1.8598849">
-          <folding />
-        </state>
+        <state line="57" column="43" selection-start="1901" selection-end="1901" vertical-scroll-proportion="1.8598849" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/Templates/consultas/new_consulta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="273" selection-end="278" vertical-scroll-proportion="0.18426104">
-          <folding />
-        </state>
+        <state line="9" column="28" selection-start="273" selection-end="278" vertical-scroll-proportion="0.18426104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consultas/models.py">
@@ -510,15 +440,13 @@
     <entry file="file://$PROJECT_DIR$/consultas/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sielabs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="214" selection-end="214" vertical-scroll-proportion="0.27321428">
+        <state line="111" column="50" selection-start="4172" selection-end="4172" vertical-scroll-proportion="0.03046595">
           <folding />
         </state>
       </provider>
